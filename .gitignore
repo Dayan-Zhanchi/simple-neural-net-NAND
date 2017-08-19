@@ -4,7 +4,11 @@ package-lock.json
 
 #Intellij
 .idea/
+idea/
 *.iml
+
+#Dist
+dist/
 
 # Error logs
 npm-debug.log*
