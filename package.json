@@ -1,0 +1,28 @@
+{
+  "name": "simple-neural-net-NAND",
+  "version": "1.0.0",
+  "description": "A simple neural network created to work as a NAND gate",
+  "main": "neural net NAND.js",
+  "dependencies": {
+    "synaptic": "^1.0.12"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  },
+  "scripts": {
+    "start": "index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dayan-Zhanchi/simple-neural-net-NAND.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dayan-Zhanchi/simple-neural-net-NAND/issues"
+  },
+  "homepage": "https://github.com/Dayan-Zhanchi/simple-neural-net-NAND#readme"
+}
