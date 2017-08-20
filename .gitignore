@@ -5,6 +5,7 @@ package-lock.json
 #Intellij
 .idea/
 idea/
+.idea
 *.iml
 
 #Dist

@@ -1,24 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html  style="height: 100%;">
     <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script type="text/javascript" src="dist/bundle.js" async></script>
     <title>Neural Network | Logical Operations</title>
   </head>
-  <body>
-      <table id="nandTable">
-          <tr>
+  <body style="height:100%;">
+  <div class="container">
+    <table id="nandTable" style="display: inline-block">
+      <tr>
+          <th colspan="4" style="text-align: center">NAND GATE</th>
+      </tr>
+      <tr>
+        <th colspan="2">Input</th>
+        <th colspan="2">Output</th>
+      </tr>
+      <tr>
+        <th>A</th>
+        <th>B</th>
+        <th colspan="2">A NAND B</th>
+      </tr>
+    </table>
+    <table id="xorTable" style="display: inline-block">
+        <tr>
+            <th colspan="4" style="text-align: center">XOR GATE</th>
+        </tr>
+        <tr>
             <th colspan="2">Input</th>
             <th colspan="2">Output</th>
-          </tr>
-          <tr>
+        </tr>
+        <tr>
             <th>A</th>
             <th>B</th>
-            <th colspan="2">A NAND B</th>
-          </tr>
-      </table>
-      <script src="index.js">
-          fillNandTable();
-      </script>
+            <th colspan="2">A XOR B</th>
+        </tr>
+    </table>
+    <table id="orTable" style="display: inline-block">
+        <tr>
+            <th colspan="4" style="text-align: center">OR GATE</th>
+        </tr>
+        <tr>
+            <th colspan="2">Input</th>
+            <th colspan="2">Output</th>
+        </tr>
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th colspan="2">A OR B</th>
+        </tr>
+    </table>
+    <table id="andTable" style="display: inline-block">
+        <tr>
+            <th colspan="4" style="text-align: center">AND GATE</th>
+        </tr>
+        <tr>
+            <th colspan="2">Input</th>
+            <th colspan="2">Output</th>
+        </tr>
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th colspan="2">A AND B</th>
+        </tr>
+    </table>
+  </div>
   </body>
 </html>
