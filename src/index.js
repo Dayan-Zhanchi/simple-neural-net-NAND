@@ -151,10 +151,10 @@ fillTable(myNANDNetwork, "nandTable");
 initializeTrainXORNetwork(myXORNetwork);
 fillTable(myXORNetwork, "xorTable");
 
-initializeTrainXORNetwork(myORNetwork);
+initializeTrainORNetwork(myORNetwork);
 fillTable(myORNetwork, "orTable");
 
-initializeTrainXORNetwork(myANDNetwork);
+initializeTrainANDNetwork(myANDNetwork);
 fillTable(myANDNetwork, "andTable");
 
 
