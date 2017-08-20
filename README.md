@@ -1,2 +1,2 @@
-# simple-neural-net-NAND
-A simple neural network created to work as a NAND gate
+# simple-neural-net-logical-gates
+A simple neural network created to work as NAND, XOR, OR, AND gates
