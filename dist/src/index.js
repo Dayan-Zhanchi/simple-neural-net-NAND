@@ -40,19 +40,19 @@ function initializeTrainNANDNetwork(myNANDNetwork) {
     for (var i = 0; i < 20000; i++) {
         // 0,0 => 0
         myNANDNetwork.activate([0, 0]);
-        myNANDNetwork.propagate(learningRate, [0]);
+        myNANDNetwork.propagate(learningRate, [1]);
 
         // 0,1 => 0
         myNANDNetwork.activate([0, 1]);
-        myNANDNetwork.propagate(learningRate, [0]);
+        myNANDNetwork.propagate(learningRate, [1]);
 
         // 1,0 => 0
         myNANDNetwork.activate([1, 0]);
-        myNANDNetwork.propagate(learningRate, [0]);
+        myNANDNetwork.propagate(learningRate, [1]);
 
         // 1,1 => 1
         myNANDNetwork.activate([1, 1]);
-        myNANDNetwork.propagate(learningRate, [1]);
+        myNANDNetwork.propagate(learningRate, [0]);
     }
 }
 
@@ -94,7 +94,7 @@ function initializeTrainORNetwork(myORNetwork) {
 
         // 1,1 => 1
         myORNetwork.activate([1, 1]);
-        myORNetwork.propagate(learningRate, [0]);
+        myORNetwork.propagate(learningRate, [1]);
     }
 }
 
